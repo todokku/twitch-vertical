@@ -1,0 +1,32 @@
+.tw-flex.twitch-vertical--wrapper {
+  display: grid !important;
+  grid-template-columns: 5rem auto;
+  grid-template-areas:
+    'navbar player'
+    'navbar chat';
+}
+
+.twitch-vertical--player-parent {
+  grid-area: player;
+  height: auto !important;
+  max-height: calc(100vh - 16rem) !important;
+}
+
+.twitch-vertical--chat-parent {
+  grid-area: chat;
+  width: 100% !important;
+  height: 100%;
+  max-height: 75vh;
+}
+
+.twitch-vertical--chat .channel-root__right-column {
+  width: 100% !important;
+}
+
+.twitch-vertical--chat {
+  height: 100% !important;
+}
+
+.twitch-vertical--sidenav {
+  grid-area: navbar;
+}
