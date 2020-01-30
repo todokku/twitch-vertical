@@ -2,6 +2,8 @@
 
 A very simple extension build with Vue using Kocal's [Vue Web Extension](https://github.com/Kocal/vue-web-extension) boilerplate.
 
+[<img src="./images/ChromeWebStore.png">](https://chrome.google.com/webstore/detail/twitch-vertical/ahfcaiejokljdddiodkpgoljeaglhokb)
+
 ## Features
 
 Actually just a simple one: move the chat below the player
